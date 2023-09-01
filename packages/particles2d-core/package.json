@@ -1,0 +1,32 @@
+{
+    "name": "@armathai/particles2d-core",
+    "version": "1.0.0",
+    "license": "MIT",
+    "source": "src/index.ts",
+    "main": "dist/index.js",
+    "author": "https://github.com/armathai",
+    "description": "Some description for this lib",
+    "private": false,
+    "files": [
+        "dist/**/*"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:armathai/particles2d.git"
+    },
+    "bugs": {
+        "url": "https://github.com/armathai/particles2d/issues"
+    },
+    "keywords": [
+        "particle",
+        "particles",
+        "particle2d"
+    ],
+    "homepage": "https://github.com/armathai/particles2d#readme",
+    "scripts": {
+        "clean": "rimraf dist && rimraf tsconfig.tsbuildinfo",
+        "test": "jest --config jestconfig.json",
+        "lint": "eslint 'src/**/*.{js,ts,ts}'",
+        "build": "npm run clean && tsc --build"
+    }
+}
