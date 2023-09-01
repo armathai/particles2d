@@ -1,5 +1,11 @@
 # @armathai/pixi-particles
 
+## 3.0.0
+
+### Major Changes
+
+-   62aff87: Whole new system.
+
 ## 1.0.2
 
 ### Patch Changes
